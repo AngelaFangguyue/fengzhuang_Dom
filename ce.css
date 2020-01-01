@@ -1,0 +1,8 @@
+body {
+  border: 10px solid rgb(201, 11, 201);
+}
+.t2b {
+  height: 400px;
+  background-color: blue;
+  border: 10px solid red;
+}

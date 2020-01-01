@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>class</title>
+    <style>
+      #test1 {
+        border: 2px solid red;
+      }
+      #test2 {
+        border: 2px solid rebeccapurple;
+      }
+      .t5 {
+        border: 5px solid purple;
+        background: red;
+        width: 300px;
+        height: 300px;
+      }
+      .t2a {
+        padding: 30px;
+      }
+    </style>
+    <link rel="stylesheet" href="ce.css" />
+  </head>
+  <body>
+    <div id="test1" style="color:pink">
+      <div id="p1">
+        p标签里面有一个h3标签:
+        <h3>我是h3标签</h3>
+      </div>
+      <p id="p2">p2</p>
+      <p id="p3">p3</p>
+      <p id="p4">p4</p>
+    </div>
+    <h2 id="hh2">
+      wrap：在html中写好的h2标签，本来是和它现在所在的父元素div：test2元素是同级的，wrap将其变为了父子关系。哈哈2020
+    </h2>
+    <div id="test2">
+      <span id="sp1">ss1</span>
+      <span id="sp2">ss2</span>
+      <span id="sp3">ss3</span>
+      <span id="spz" style="color:orange"
+        >remove：本来这个span标签前面是有个ss3的span标签的，测试删除掉了</span
+      >
+      <span id="sp4">ss4</span>
+      <span id="sp5">ss5</span>
+    </div>
+    <div id="test3"></div>
+    <div id="test4">
+      <p id="p41">p41</p>
+      <p id="p42">p42</p>
+      <p id="p43">p43</p>
+      <p id="p44">p44</p>
+      <p id="p45">p45</p>
+      <p id="p46">p46</p>
+    </div>
+    <div id="test5">
+      <p id="p51">p51</p>
+      加一些文字1
+      <p id="p52">p52</p>
+      <p id="p53">p53</p>
+      <p id="p54">p54</p>
+      <p id="p55">p55</p>
+      加一些文字2
+      <p id="p56">p56</p>
+    </div>
+    <script src="ce.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
